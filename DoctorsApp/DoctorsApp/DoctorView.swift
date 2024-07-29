@@ -20,22 +20,20 @@ struct DoctorView: View {
                     VStack(alignment: .leading, spacing: 4) {
                         Text("User Name")
                             .font(.system(size: 20, weight: .bold))
+                            .boldFont(size: 20)
                         Text("Lorem ipsum dolor sit amet")
-                            .font(.system(size: 14, weight: .bold))
-                            .foregroundStyle(.appGray)
+                            .boldFont(size: 14, color: .appGray)
                     }
                     VStack(alignment: .leading, spacing: 12) {
                         HStack {
                             Image(systemName: "clock")
                                 .foregroundStyle(.appLightAzure)
                             Text("10.40 am - 2.40 pm")
-                                .font(.system(size: 14, weight: .medium))
-                                .foregroundStyle(.appGray)
+                                .mediumFont()
                         }
                         HStack {
                             Text("$10.50")
-                                .font(.system(size: 14, weight: .medium))
-                                .foregroundStyle(.appGray)
+                                .mediumFont()
                             Spacer()
                             Button(action: {}, label: {
                                 Text("Appointment")

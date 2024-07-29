@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct CustomButtonView: View {
+    
     @Binding var searchText: String
+    
     var body: some View {
         ZStack {
             Circle()

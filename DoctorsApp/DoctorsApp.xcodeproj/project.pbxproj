@@ -14,6 +14,7 @@
 		1AA52DFA2C56D2FE006F4969 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52DF92C56D2FE006F4969 /* CustomButtonView.swift */; };
 		1AA52DFC2C576DCA006F4969 /* ActionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52DFB2C576DCA006F4969 /* ActionCardView.swift */; };
 		1AA52DFE2C57870F006F4969 /* DoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52DFD2C57870F006F4969 /* DoctorView.swift */; };
+		1AA52E012C57CAB7006F4969 /* Extension+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA52E002C57CAB7006F4969 /* Extension+Text.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1AA52DF92C56D2FE006F4969 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		1AA52DFB2C576DCA006F4969 /* ActionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCardView.swift; sourceTree = "<group>"; };
 		1AA52DFD2C57870F006F4969 /* DoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorView.swift; sourceTree = "<group>"; };
+		1AA52E002C57CAB7006F4969 /* Extension+Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Text.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				1AA52DF92C56D2FE006F4969 /* CustomButtonView.swift */,
 				1AA52DFB2C576DCA006F4969 /* ActionCardView.swift */,
 				1AA52DFD2C57870F006F4969 /* DoctorView.swift */,
+				1AA52E002C57CAB7006F4969 /* Extension+Text.swift */,
 				1AA52DEF2C56B1BF006F4969 /* Assets.xcassets */,
 				1AA52DF12C56B1BF006F4969 /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				1AA52DFA2C56D2FE006F4969 /* CustomButtonView.swift in Sources */,
 				1AA52DEE2C56B1BB006F4969 /* ContentView.swift in Sources */,
+				1AA52E012C57CAB7006F4969 /* Extension+Text.swift in Sources */,
 				1AA52DFE2C57870F006F4969 /* DoctorView.swift in Sources */,
 				1AA52DFC2C576DCA006F4969 /* ActionCardView.swift in Sources */,
 				1AA52DEC2C56B1BB006F4969 /* DoctorsAppApp.swift in Sources */,
